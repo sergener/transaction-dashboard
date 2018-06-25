@@ -13,12 +13,12 @@ const RadioButtons = (props) => {
 
             <label className="btn btn-secondary">
                 <input type="radio" value="radio2" checked={selected('radio2')} onChange={() => props.onChangeRadio('radio2')}/>
-                Gains
+                Credit
             </label>
 
             <label className="btn btn-secondary">
                 <input type="radio" value="radio3" checked={selected('radio3')} onChange={() => props.onChangeRadio('radio3')}/>
-                Losses
+                Debit
             </label>
 
         </div>

@@ -1,5 +1,8 @@
 
 export const reduceBalance = (arr, arg) => arr.reduce((sum, val) => {return sum + val[arg]}, 0);
+export const reduceBalanceShort = (arr, arg, idx) => arr.slice(idx).reduce((sum, val) => {return sum + val[arg]}, 0);
+
+
 
 export const formatMoney = (number) => number.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 
