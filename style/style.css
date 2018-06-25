@@ -1,0 +1,78 @@
+.flex {
+    display: flex;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+.flexEnd {
+    justify-content: flex-end;
+}
+
+.alignItemsEnd {
+    align-items: flex-end;
+}
+
+.fontSize2 {
+    font-size: 2em;
+}
+.fontSize1\.5 {
+    font-size: 1.5em;
+}
+
+.bgGreenDark {
+    background-color: #2d7440;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.bodyPadding {
+    padding-top: 70px
+}
+
+.maxWid {
+    max-width: 500px;
+}
+
+.minWid {
+    min-width: 350px;
+    width: 100%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    background-color: rgba(86, 117, 175, 0.5);
+    color: white;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+.borderGreen {
+    border-color: #9ba894;
+}
+
+.btn {width:33.3%;}
+
+ul {
+    list-style: none;
+}
